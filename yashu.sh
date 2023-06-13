@@ -1,6 +1,6 @@
 rm -r Yashu 
-git clone $REPO_URL Yashu
+git clone https://github.com/TgCatUB/catuserbot Yashu
 cd Yashu
 pip install --upgrade pip
 pip install -r requirements.txt
-$START_COMMAND
+python3 -m userbot
